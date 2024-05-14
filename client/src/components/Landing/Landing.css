@@ -9,7 +9,7 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap-reverse;
-    background-color: #ffe26e;
+    background-color: #9cff6e;
     position: relative;
 }
 
@@ -56,7 +56,7 @@
 
 .landing__image__container {
     width: 50%;
-    height: ;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;

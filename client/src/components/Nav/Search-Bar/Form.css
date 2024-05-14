@@ -17,7 +17,7 @@
     outline: none;
     padding-left: 25px;
     font-size: .9rem;
-    border-color: #FFE26E;
+    border-color: #9cff6e;
     border-style: solid;
     border-radius: 10px;
 }
@@ -26,11 +26,11 @@
     position: absolute;
     height: 45px;
     width: 50px;
-    background-color: #FFE26E;;
+    background-color: #9cff6e;;
     color: rgb(0, 0, 0);
     right: 0px;
     font-weight: bold;
-    border-color: #FFE26E;
+    border-color: #9cff6e;
     border-style: solid;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;

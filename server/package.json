@@ -1,14 +1,15 @@
 {
-  "name": "Shema Server",
+  "name": "REBEL Server",
   "version": "1.0.0",
   "description": "Test Server for SHEMA",
   "proxy": "http://localhost:3000/1 ",
   "main": "server.js",
   "scripts": {
+    "build":"tsc",
     "start": "node server",
     "dev": "nodemon server"
   },
-  "author": "Bereket Lemma",
+  "author": "Rohit Kumar Godara",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.8",

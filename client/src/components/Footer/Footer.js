@@ -41,7 +41,7 @@ const Footer = () => {
                                 <LocalPhoneIcon /> <span>+91-9352361119</span>
                             </li>
                             <li className="footer__contact">
-                                <EmailIcon /> <span>shop@shema.com</span>
+                                <EmailIcon /> <span>shop@Rebel.com</span>
                             </li>
                             <li className="footer__contact">
                                 <LocationOnIcon /> <span>Rajasthan, India</span>
@@ -73,7 +73,7 @@ const Footer = () => {
                 </div>
                 <div className="fotter__copyright__container">
                     <ul className='nav'>
-                        <li className="footer__copyright">©2024 Shema Ltd. |</li>
+                        <li className="footer__copyright">©2024 REBEL Ltd. |</li>
                         <li className="footer__terms__condition"> | Terms & Condition |</li>
                         <li className="footer__privacy__policy">| Privacy Policy</li>
                     </ul>

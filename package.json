@@ -1,20 +1,24 @@
 {
-  "name": "shema",
+  "name": "Rebel",
   "version": "1.0.0",
-  "description": "Shema MERN Stack Ecommerce application",
+  "description": "REBEL MERN Stack Ecommerce application",
   "main": "index.js",
   "scripts": {
-    "start": "node server/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "concurrently \"npm run start-server\" \"npm run start-client\"",
+    "start-server": "node server.js", 
+    "start-client": "cd client && npm start",
+    "build": "npm run build-client && npm run build-server",
+  "build-client": "cd client && npm run build",
+  "build-server": "cd server && npm run build"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Bereky/shema-mern-ecommerce.git"
+    "type": "git"
   },
-  "author": "Bereket Lemma",
+  "author": "Rohit kumar godara",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bereky/shema-mern-ecommerce/issues"
   },
-  "homepage": "https://github.com/Bereky/shema-mern-ecommerce#readme"
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
 }

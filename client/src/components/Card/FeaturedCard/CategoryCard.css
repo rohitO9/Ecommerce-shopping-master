@@ -43,7 +43,7 @@
     flex-direction: row;
     position: absolute;
     bottom: 0%;
-    color: #FFE26E;
+    color: #9cff6e;
 }
 
 .category__name {
@@ -82,8 +82,8 @@
     border-radius: 5px;
     font-size: 0.8rem;
     background-color: transparent;
-    border-color: #FFE26E;
+    border-color: #9cff6e;
     border-style: solid;
     font-weight:bold;
-    color: #FFE26E;
+    color: #9cff6e;
 }

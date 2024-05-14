@@ -40,7 +40,7 @@
 .category__header__line {
     width: 120px;
     height: 6px;
-    background-color: #FFE26E;
+    background-color: #9cff6e;
     align-self: flex-start;
     border-radius: 25px;
 }
@@ -87,8 +87,8 @@
     height: 25%;
     border-radius: 20px;
     font-size: 1rem;
-    background-color: #FFE26E;
-    border-color: #FFE26E;
+    background-color: #9cff6e;
+    border-color: #9cff6e;
     border-style: dashed;
     font-weight:bold;
 }

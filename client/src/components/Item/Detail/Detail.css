@@ -142,15 +142,15 @@
     height:45px;
     border-radius: 25px;
     font-size: 0.8rem;
-    background-color: #FFE26E;
-    border-color: #FFE26E;
+    background-color: #9cff6e;
+    border-color: #9cff6e;
     border-style: dashed;
     font-weight:bold;
 }
 
 .add__to__cart__button:hover {
-    background-color: #e8ce67;
-    border-color: #e8ce67;
+    background-color: #9cff6e;
+    border-color: #9cff6e;
 }
 
 .buy__now {

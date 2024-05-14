@@ -4,7 +4,7 @@ import { TabTitle } from "../../../utils/General";
 
 export const Profile = () => {
 
-    TabTitle("My Account - Shema")
+    TabTitle("My Account - Rebel")
 
     return ( 
         <MyAccount />
@@ -13,7 +13,7 @@ export const Profile = () => {
 
 export const AccountManager = () => {
 
-    TabTitle("My Account - Shema")
+    TabTitle("My Account - Rebel")
 
     return (
         <ManageAccount />
