@@ -2,7 +2,7 @@
   "name": "REBEL",
   "version": "1.0.0",
   "description": "REBEL MERN Stack Ecommerce application",
-  "main": "index.js",
+  "main": "server/server.js",
   "scripts": {
     "start": "concurrently \"npm run start-server\" \"npm run start-client\"",
     "start-server": "node server/server.js",

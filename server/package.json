@@ -5,7 +5,7 @@
   "proxy": "http://localhost:3000/1 ",
   "main": "server.js",
   "scripts": {
-    "build":"tsc",
+    "build": "echo 'No build step for server'",
     "start": "node server",
     "dev": "nodemon server"
   },
