@@ -1,11 +1,11 @@
 {
-  "name": "Rebel",
+  "name": "REBEL",
   "version": "1.0.0",
   "description": "REBEL MERN Stack Ecommerce application",
   "main": "index.js",
   "scripts": {
     "start": "concurrently \"npm run start-server\" \"npm run start-client\"",
-    "start-server": "node server.js",
+    "start-server": "node server/server.js",
     "start-client": "cd client && npm start",
     "build": "npm run build-client && npm run build-server",
     "build-client": "cd client && npm run build",
